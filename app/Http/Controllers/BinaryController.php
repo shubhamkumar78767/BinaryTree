@@ -120,7 +120,7 @@ class BinaryController extends Controller
             }
         }
     }
-
+    
     private function RegisterWithBinaryTree($register_array, $sponser_id, $direct_sponser_id)
     {
         $register_array['sponser_id'] = $sponser_id;
